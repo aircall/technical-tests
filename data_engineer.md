@@ -21,7 +21,15 @@ Build a **straightforward** crawler able to fetch data from GitHub API in a reli
 
 The crawler needs to produce a dataset like this:
 
-[Copy of Untitled](https://www.notion.so/56a6ba6075414bb1934936a0a56faa22)
+|repository|date|number_of_new_contributors|
+|---|---|---|
+|instantsearch.js|2016-06-01|10|
+|algoliasearch-js-client|2016-06-01|5|
+|algoliasearch-ruby-client|2016-06-01|3|
+|instantsearch.js|2016-07-01|8|
+|algoliasearch-js-client|2016-07-01|7|
+|algoliasearch-ruby-client|2016-07-01|7|
+|...|...|...|
 
 You can use any technology for this as long as it's reliable, fault tolerant, efficient and scalable.
 Imagine you are building Aircall new data platform, do not use hacky solutions. Don't design the solution as a Backend Engineer but as a Data Engineer
@@ -34,7 +42,7 @@ Build a simple web server that provide a JSON API delivering the results you pre
 
 ## 🖊 Evaluation Criteria
 
-Please push your code to a public or private repository on GitHub and give access to:
+Please push your code to a public or private repository on GitHub and give access to (if private):
 
 - [kmatrah](https://github.com/kmatrah/)
 - [flomarin88](https://github.com/flomarin88)
